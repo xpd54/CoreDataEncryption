@@ -1,0 +1,6 @@
+[submodule "submodule/sqlcipher"]
+	path = submodule/sqlcipher
+	url = https://github.com/sqlcipher/sqlcipher
+[submodule "submodule/encrypted-core-data"]
+	path = submodule/encrypted-core-data
+	url = https://github.com/project-imas/encrypted-core-data
