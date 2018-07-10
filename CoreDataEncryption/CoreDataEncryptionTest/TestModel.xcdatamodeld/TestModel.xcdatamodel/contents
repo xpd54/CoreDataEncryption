@@ -25,9 +25,9 @@
         <relationship name="house" optional="YES" toMany="YES" minCount="1" deletionRule="No Action" destinationEntity="House" syncable="YES"/>
     </entity>
     <elements>
-        <element name="House" positionX="5625" positionY="4887" width="128" height="103"/>
-        <element name="Address" positionX="5272" positionY="4968" width="128" height="103"/>
-        <element name="Person" positionX="5965" positionY="5100" width="128" height="118"/>
-        <element name="Child" positionX="5616" positionY="5283" width="128" height="88"/>
+        <element name="House" positionX="5310" positionY="5049" width="128" height="103"/>
+        <element name="Address" positionX="5371" positionY="4838" width="128" height="103"/>
+        <element name="Person" positionX="5625" positionY="5211" width="128" height="118"/>
+        <element name="Child" positionX="5596" positionY="4943" width="128" height="88"/>
     </elements>
 </model>

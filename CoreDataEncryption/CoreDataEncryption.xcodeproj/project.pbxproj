@@ -20,6 +20,7 @@
 		9D24E6D720F4998C005D66C6 /* House+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6C820F4998C005D66C6 /* House+CoreDataClass.m */; };
 		9D24E6D820F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6CB20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m */; };
 		9D24E6DB20F49FC4005D66C6 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6D920F49FC4005D66C6 /* TestModel.xcdatamodeld */; };
+		9D24E6DE20F4A936005D66C6 /* CoreDataMigrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6DD20F4A936005D66C6 /* CoreDataMigrationTest.m */; };
 		9D44759620F373370049D1D2 /* CoreDataEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D44759520F373370049D1D2 /* CoreDataEncryption.m */; };
 		9D44759720F373370049D1D2 /* CoreDataEncryption.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D44759420F373370049D1D2 /* CoreDataEncryption.h */; };
 		9D4475B320F373950049D1D2 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4475B220F373950049D1D2 /* EncryptedStore.m */; };
@@ -120,6 +121,7 @@
 		9D24E6CB20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+ECDTest.m"; sourceTree = "<group>"; };
 		9D24E6DA20F49FC4005D66C6 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 		9D24E6DC20F4A82F005D66C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D24E6DD20F4A936005D66C6 /* CoreDataMigrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataMigrationTest.m; sourceTree = "<group>"; };
 		9D44759120F373370049D1D2 /* libCoreDataEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreDataEncryption.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D44759420F373370049D1D2 /* CoreDataEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataEncryption.h; sourceTree = "<group>"; };
 		9D44759520F373370049D1D2 /* CoreDataEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataEncryption.m; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				9D24E6D920F49FC4005D66C6 /* TestModel.xcdatamodeld */,
 				9D24E6B520F4998C005D66C6 /* Header.h */,
 				9D24E6B620F4998C005D66C6 /* CoreDataEncryptionTest.m */,
+				9D24E6DD20F4A936005D66C6 /* CoreDataMigrationTest.m */,
 				9D24E6B720F4998C005D66C6 /* Info.plist */,
 			);
 			path = CoreDataEncryptionTest;
@@ -415,6 +418,7 @@
 				9D24E6D720F4998C005D66C6 /* House+CoreDataClass.m in Sources */,
 				9D24E6D120F4998C005D66C6 /* Person+CoreDataClass.m in Sources */,
 				9D24E6D420F4998C005D66C6 /* Child+CoreDataProperties.m in Sources */,
+				9D24E6DE20F4A936005D66C6 /* CoreDataMigrationTest.m in Sources */,
 				9D24E6D020F4998C005D66C6 /* Child+CoreDataClass.m in Sources */,
 				9D24E6D220F4998C005D66C6 /* Address+CoreDataProperties.m in Sources */,
 				9D24E6DB20F49FC4005D66C6 /* TestModel.xcdatamodeld in Sources */,
