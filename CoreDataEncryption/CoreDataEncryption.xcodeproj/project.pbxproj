@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D24E67820F493C8005D66C6 /* libCoreDataEncryption.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D44759120F373370049D1D2 /* libCoreDataEncryption.a */; };
+		9D24E6CC20F4998C005D66C6 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9D24E6B320F4998C005D66C6 /* database.sqlite */; };
+		9D24E6CE20F4998C005D66C6 /* CoreDataEncryptionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6B620F4998C005D66C6 /* CoreDataEncryptionTest.m */; };
+		9D24E6D020F4998C005D66C6 /* Child+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6B920F4998C005D66C6 /* Child+CoreDataClass.m */; };
+		9D24E6D120F4998C005D66C6 /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6BA20F4998C005D66C6 /* Person+CoreDataClass.m */; };
+		9D24E6D220F4998C005D66C6 /* Address+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6BB20F4998C005D66C6 /* Address+CoreDataProperties.m */; };
+		9D24E6D320F4998C005D66C6 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6BF20F4998C005D66C6 /* Person+CoreDataProperties.m */; };
+		9D24E6D420F4998C005D66C6 /* Child+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6C320F4998C005D66C6 /* Child+CoreDataProperties.m */; };
+		9D24E6D520F4998C005D66C6 /* Address+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6C520F4998C005D66C6 /* Address+CoreDataClass.m */; };
+		9D24E6D620F4998C005D66C6 /* House+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6C720F4998C005D66C6 /* House+CoreDataProperties.m */; };
+		9D24E6D720F4998C005D66C6 /* House+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6C820F4998C005D66C6 /* House+CoreDataClass.m */; };
+		9D24E6D820F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6CB20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m */; };
+		9D24E6DB20F49FC4005D66C6 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D24E6D920F49FC4005D66C6 /* TestModel.xcdatamodeld */; };
 		9D44759620F373370049D1D2 /* CoreDataEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D44759520F373370049D1D2 /* CoreDataEncryption.m */; };
 		9D44759720F373370049D1D2 /* CoreDataEncryption.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9D44759420F373370049D1D2 /* CoreDataEncryption.h */; };
 		9D4475B320F373950049D1D2 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4475B220F373950049D1D2 /* EncryptedStore.m */; };
@@ -17,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9D24E67920F493C8005D66C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D44758920F373370049D1D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D44759020F373370049D1D2;
+			remoteInfo = CoreDataEncryption;
+		};
 		9D4475A620F373720049D1D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9D44759D20F373720049D1D2 /* sqlcipher.xcodeproj */;
@@ -75,6 +95,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D24E67320F493C8005D66C6 /* CoreDataEncryptionTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataEncryptionTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D24E6B320F4998C005D66C6 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
+		9D24E6B520F4998C005D66C6 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		9D24E6B620F4998C005D66C6 /* CoreDataEncryptionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataEncryptionTest.m; sourceTree = "<group>"; };
+		9D24E6B720F4998C005D66C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D24E6B920F4998C005D66C6 /* Child+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Child+CoreDataClass.m"; sourceTree = "<group>"; };
+		9D24E6BA20F4998C005D66C6 /* Person+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataClass.m"; sourceTree = "<group>"; };
+		9D24E6BB20F4998C005D66C6 /* Address+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Address+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9D24E6BC20F4998C005D66C6 /* Child+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Child+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9D24E6BD20F4998C005D66C6 /* House+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "House+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9D24E6BE20F4998C005D66C6 /* House+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "House+CoreDataClass.h"; sourceTree = "<group>"; };
+		9D24E6BF20F4998C005D66C6 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9D24E6C020F4998C005D66C6 /* Address+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Address+CoreDataClass.h"; sourceTree = "<group>"; };
+		9D24E6C120F4998C005D66C6 /* Child+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Child+CoreDataClass.h"; sourceTree = "<group>"; };
+		9D24E6C220F4998C005D66C6 /* Person+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataClass.h"; sourceTree = "<group>"; };
+		9D24E6C320F4998C005D66C6 /* Child+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Child+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9D24E6C420F4998C005D66C6 /* Address+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Address+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9D24E6C520F4998C005D66C6 /* Address+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Address+CoreDataClass.m"; sourceTree = "<group>"; };
+		9D24E6C620F4998C005D66C6 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9D24E6C720F4998C005D66C6 /* House+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "House+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9D24E6C820F4998C005D66C6 /* House+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "House+CoreDataClass.m"; sourceTree = "<group>"; };
+		9D24E6CA20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+ECDTest.h"; sourceTree = "<group>"; };
+		9D24E6CB20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+ECDTest.m"; sourceTree = "<group>"; };
+		9D24E6DA20F49FC4005D66C6 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
 		9D44759120F373370049D1D2 /* libCoreDataEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreDataEncryption.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D44759420F373370049D1D2 /* CoreDataEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataEncryption.h; sourceTree = "<group>"; };
 		9D44759520F373370049D1D2 /* CoreDataEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataEncryption.m; sourceTree = "<group>"; };
@@ -85,6 +129,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9D24E67020F493C8005D66C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D24E67820F493C8005D66C6 /* libCoreDataEncryption.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D44758E20F373370049D1D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,12 +149,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D24E6B120F4998C005D66C6 /* CoreDataEncryptionTest */ = {
+			isa = PBXGroup;
+			children = (
+				9D24E6B220F4998C005D66C6 /* TestData */,
+				9D24E6B820F4998C005D66C6 /* Entities */,
+				9D24E6C920F4998C005D66C6 /* Utility */,
+				9D24E6D920F49FC4005D66C6 /* TestModel.xcdatamodeld */,
+				9D24E6B520F4998C005D66C6 /* Header.h */,
+				9D24E6B620F4998C005D66C6 /* CoreDataEncryptionTest.m */,
+				9D24E6B720F4998C005D66C6 /* Info.plist */,
+			);
+			path = CoreDataEncryptionTest;
+			sourceTree = "<group>";
+		};
+		9D24E6B220F4998C005D66C6 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				9D24E6B320F4998C005D66C6 /* database.sqlite */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		9D24E6B820F4998C005D66C6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9D24E6C120F4998C005D66C6 /* Child+CoreDataClass.h */,
+				9D24E6B920F4998C005D66C6 /* Child+CoreDataClass.m */,
+				9D24E6BC20F4998C005D66C6 /* Child+CoreDataProperties.h */,
+				9D24E6C320F4998C005D66C6 /* Child+CoreDataProperties.m */,
+				9D24E6BE20F4998C005D66C6 /* House+CoreDataClass.h */,
+				9D24E6C820F4998C005D66C6 /* House+CoreDataClass.m */,
+				9D24E6BD20F4998C005D66C6 /* House+CoreDataProperties.h */,
+				9D24E6C720F4998C005D66C6 /* House+CoreDataProperties.m */,
+				9D24E6C220F4998C005D66C6 /* Person+CoreDataClass.h */,
+				9D24E6BA20F4998C005D66C6 /* Person+CoreDataClass.m */,
+				9D24E6C620F4998C005D66C6 /* Person+CoreDataProperties.h */,
+				9D24E6BF20F4998C005D66C6 /* Person+CoreDataProperties.m */,
+				9D24E6C020F4998C005D66C6 /* Address+CoreDataClass.h */,
+				9D24E6C520F4998C005D66C6 /* Address+CoreDataClass.m */,
+				9D24E6C420F4998C005D66C6 /* Address+CoreDataProperties.h */,
+				9D24E6BB20F4998C005D66C6 /* Address+CoreDataProperties.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		9D24E6C920F4998C005D66C6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9D24E6CA20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.h */,
+				9D24E6CB20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		9D44758820F373370049D1D2 = {
 			isa = PBXGroup;
 			children = (
 				9D44759320F373370049D1D2 /* CoreDataEncryption */,
 				9D44759D20F373720049D1D2 /* sqlcipher.xcodeproj */,
 				9D4475B020F373950049D1D2 /* Incremental Store */,
+				9D24E6B120F4998C005D66C6 /* CoreDataEncryptionTest */,
 				9D44759220F373370049D1D2 /* Products */,
 				9D4475B620F3744C0049D1D2 /* Frameworks */,
 			);
@@ -112,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				9D44759120F373370049D1D2 /* libCoreDataEncryption.a */,
+				9D24E67320F493C8005D66C6 /* CoreDataEncryptionTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +278,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		9D24E67220F493C8005D66C6 /* CoreDataEncryptionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D24E68220F493C8005D66C6 /* Build configuration list for PBXNativeTarget "CoreDataEncryptionTest" */;
+			buildPhases = (
+				9D24E66F20F493C8005D66C6 /* Sources */,
+				9D24E67020F493C8005D66C6 /* Frameworks */,
+				9D24E67120F493C8005D66C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D24E67A20F493C8005D66C6 /* PBXTargetDependency */,
+			);
+			name = CoreDataEncryptionTest;
+			productName = CoreDtataEncryptionTest;
+			productReference = 9D24E67320F493C8005D66C6 /* CoreDataEncryptionTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9D44759020F373370049D1D2 /* CoreDataEncryption */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D44759A20F373370049D1D2 /* Build configuration list for PBXNativeTarget "CoreDataEncryption" */;
@@ -198,6 +324,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Ravi Prakash";
 				TargetAttributes = {
+					9D24E67220F493C8005D66C6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					9D44759020F373370049D1D2 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -222,6 +351,7 @@
 			projectRoot = "";
 			targets = (
 				9D44759020F373370049D1D2 /* CoreDataEncryption */,
+				9D24E67220F493C8005D66C6 /* CoreDataEncryptionTest */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +394,36 @@
 		};
 /* End PBXReferenceProxy section */
 
+/* Begin PBXResourcesBuildPhase section */
+		9D24E67120F493C8005D66C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D24E6CC20F4998C005D66C6 /* database.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		9D24E66F20F493C8005D66C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D24E6D720F4998C005D66C6 /* House+CoreDataClass.m in Sources */,
+				9D24E6D120F4998C005D66C6 /* Person+CoreDataClass.m in Sources */,
+				9D24E6D420F4998C005D66C6 /* Child+CoreDataProperties.m in Sources */,
+				9D24E6D020F4998C005D66C6 /* Child+CoreDataClass.m in Sources */,
+				9D24E6D220F4998C005D66C6 /* Address+CoreDataProperties.m in Sources */,
+				9D24E6DB20F49FC4005D66C6 /* TestModel.xcdatamodeld in Sources */,
+				9D24E6D520F4998C005D66C6 /* Address+CoreDataClass.m in Sources */,
+				9D24E6D820F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m in Sources */,
+				9D24E6D620F4998C005D66C6 /* House+CoreDataProperties.m in Sources */,
+				9D24E6D320F4998C005D66C6 /* Person+CoreDataProperties.m in Sources */,
+				9D24E6CE20F4998C005D66C6 /* CoreDataEncryptionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D44758D20F373370049D1D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +436,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9D24E67A20F493C8005D66C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D44759020F373370049D1D2 /* CoreDataEncryption */;
+			targetProxy = 9D24E67920F493C8005D66C6 /* PBXContainerItemProxy */;
+		};
 		9D4475B520F374320049D1D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sqlcipher;
@@ -285,6 +449,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9D24E67B20F493C8005D66C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5NK8N83ND;
+				INFOPLIST_FILE = CoreDataEncryptionTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpd54.CoreDataEncryptionTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D24E67C20F493C8005D66C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5NK8N83ND;
+				INFOPLIST_FILE = CoreDataEncryptionTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xpd54.CoreDataEncryptionTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		9D44759820F373370049D1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -434,6 +632,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9D24E68220F493C8005D66C6 /* Build configuration list for PBXNativeTarget "CoreDataEncryptionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D24E67B20F493C8005D66C6 /* Debug */,
+				9D24E67C20F493C8005D66C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9D44758C20F373370049D1D2 /* Build configuration list for PBXProject "CoreDataEncryption" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -453,6 +660,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D24E6D920F49FC4005D66C6 /* TestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D24E6DA20F49FC4005D66C6 /* TestModel.xcdatamodel */,
+			);
+			currentVersion = 9D24E6DA20F49FC4005D66C6 /* TestModel.xcdatamodel */;
+			path = TestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9D44758920F373370049D1D2 /* Project object */;
 }
