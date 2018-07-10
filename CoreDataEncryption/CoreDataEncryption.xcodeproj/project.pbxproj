@@ -119,6 +119,7 @@
 		9D24E6CA20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+ECDTest.h"; sourceTree = "<group>"; };
 		9D24E6CB20F4998C005D66C6 /* NSManagedObjectContext+ECDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+ECDTest.m"; sourceTree = "<group>"; };
 		9D24E6DA20F49FC4005D66C6 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
+		9D24E6DC20F4A82F005D66C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9D44759120F373370049D1D2 /* libCoreDataEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreDataEncryption.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D44759420F373370049D1D2 /* CoreDataEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataEncryption.h; sourceTree = "<group>"; };
 		9D44759520F373370049D1D2 /* CoreDataEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataEncryption.m; sourceTree = "<group>"; };
@@ -206,6 +207,7 @@
 		9D44758820F373370049D1D2 = {
 			isa = PBXGroup;
 			children = (
+				9D24E6DC20F4A82F005D66C6 /* README.md */,
 				9D44759320F373370049D1D2 /* CoreDataEncryption */,
 				9D44759D20F373720049D1D2 /* sqlcipher.xcodeproj */,
 				9D4475B020F373950049D1D2 /* Incremental Store */,
