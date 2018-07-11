@@ -37,7 +37,7 @@
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinatorForManageObjectModel:(NSManagedObjectModel *)model
                                                                     databaseName:(NSString *)databaseName
                                                                 andPassphraseKey:(NSString *)passphraseKey {
-    NSURL *storeUrl = [[[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory
+    NSURL *storeUrl = [[[[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory
                                                                inDomains:NSUserDomainMask] lastObject] URLByAppendingPathComponent:databaseName];
     NSDictionary *options =  @{EncryptedStorePassphraseKey: passphraseKey,
                                EncryptedStoreDatabaseLocation: storeUrl
