@@ -13,8 +13,7 @@ Note :- *All dependencies are managed by git submodule*
 * Other C Flags are set to ```-DSQLITE_HAS_CODEC``` and ```-DSQLCIPHER_CRYPTO_CC```
 
 ## Project set up Instruction
-* ```git submodule init```
-* ```git submodule update --recursive```
+* ``` git submodule update --recursive --init```
 
 ## Project Build (From root project folder)
 * ```cd scripts/```
