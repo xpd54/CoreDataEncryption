@@ -253,8 +253,20 @@ static NSString *ENCRYPTED_DATABASE_FILE_NAME = @"Encrypted.sqlite";
 }
 
 - (NSURL *)urlOfFileInDocumentDirectory:(NSString *)fileName {
-    return [[[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory
-                                                    inDomains:NSUserDomainMask] lastObject] URLByAppendingPathComponent:fileName];
+    NSString *applicationDirectoryPath = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES).lastObject;
+    NSString *filePath = [applicationDirectoryPath stringByAppendingPathComponent:fileName];
+    if (![[NSFileManager defaultManager] fileExistsAtPath:filePath]) {
+        NSError *error;
+        if([[NSFileManager defaultManager] createDirectoryAtPath:applicationDirectoryPath
+                                     withIntermediateDirectories:YES
+                                                      attributes:nil
+                                                           error:&error]) {
+            return [NSURL fileURLWithPath:filePath];
+        } else {
+            return nil;
+        }
+    }
+    return [NSURL fileURLWithPath:filePath];
 }
 
 @end
