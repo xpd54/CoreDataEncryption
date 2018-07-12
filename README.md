@@ -20,7 +20,4 @@ Note :- *All dependencies are managed by git submodule*
 * ```./release```
 
 ## Build location
-**release folder```
-
-### Notes to developer
-Please Update CHANGELOG if making major changes in project.
+```release folder```
